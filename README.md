@@ -11,12 +11,36 @@ Questo wrapper si basa sulla seguente serie di comandi preimpostati:
 ### > cmd
 ```
 > cmd
+    | 28/6/2021 0:49:17 > Ecco la lista dei comandi:
+    | > cmd - Mostra la lista dei comandi.
+    | > all - Richiedi la lista delle criptovalute a disposizione.
+    | > fetch <COIN-ID> - Richiedi le informazioni sulla criptovaluta indicata.
+    | > write <COIN-ID> <PATH=cwd> - Scrivi le info della crito indicata su file (default current working dir)
+    | > apikey - Mostra la api key verso COINAPI
+    | > webme - Apri COINAPI sul default browser
+    | > exit - Esci dall'applicazione
 ```
 Mostra la lista dei comandi disponibili.
 
 ### > all
 ```
 > all
+| 28/6/2021 0:49:37 > Cripto disponibili per la query: 
+    | COIN-ID   NOME    WEBSITE
+    
+    | > ECB             European Central Bank           https://www.ecb.europa.eu/
+    | > BINANCE         Binance         https://www.binance.com/
+    | > KRAKEN          Kraken          https://www.kraken.com/
+    | > COINBASE                Coinbase Pro (GDAX)             https://pro.coinbase.com/
+    | > BITSTAMP                Bitstamp Ltd.           https://www.bitstamp.net/
+    | > GEMINI          Gemini          https://gemini.com/
+    | > LMAXDIGITAL             LMAX Digital            https://www.lmaxdigital.com/
+    | > OKCOINCNY               OKCoin CNY              https://www.okcoin.cn/
+    | > HUOBI           Huobi (HBUS)            https://www.huobi.us/
+    | > BITTREX         Bittrex         https://bittrex.com/
+    | > POLONIEX                POLONIEX                https://poloniex.com/
+    | > BITFINEX                Bitfinex    ...
+    ...
 ```
 Mostra la lista delle coin disponibili presso l'API di CoinAPI.
 
