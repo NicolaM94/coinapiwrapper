@@ -84,3 +84,18 @@ Mostra la chiave per la connnessione a CoinAPi. Per sostituire la chiave per la 
 > apikey -c YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYYYYY
 !!! 200. Chiave cambiata per la sessione corrente! !!!
 ```
+
+### > webme [COIN-ID]
+```
+> webme BTC
+| Apro il sito: www.bitcoint.org
+```
+Apre il browser verso il sito web della criptovaluta.
+
+### > exit
+```
+> exit
+| Sto chiudendo la connessione.
+| Arrivederci.
+```
+Chiude l'applicazione.
