@@ -66,3 +66,21 @@ Mostra la lista delle coin disponibili presso l'API di CoinAPI.
     | - id_icon:  4caf2b16-a017-4e26-a348-2cea69c34cba
 ```
 Richiede a CoinAPI le informazioni disponibili sulla coin indicata.
+
+### > write [COIN-ID]
+```
+> write BTC
+```
+Crea un file json con i dati raccolti nella cartella attuale.
+
+### > apikey
+```
+> apikey
+| La chiave di connessione è: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+| Per sostituire la chiave prova apikey -c <NEW_API_KEY>
+```
+Mostra la chiave per la connnessione a CoinAPi. Per sostituire la chiave per la sessione corrente, utilizzare il comando:
+```
+> apikey -c YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYYYYY
+!!! 200. Chiave cambiata per la sessione corrente! !!!
+```
