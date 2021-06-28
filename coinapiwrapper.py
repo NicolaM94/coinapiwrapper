@@ -8,7 +8,7 @@ import pathlib
 import webbrowser
 
 # COINAPI key
-key = "D5721670-77D0-41C8-B55E-494EF9E359FA"
+key = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
 def timer():
     local_time = time.localtime()
