@@ -1,4 +1,4 @@
-# CoinAPI - Wrapper
+# CoinAPy - A Python Wrapper
 
 ![Screenshot_20210628_003131](https://user-images.githubusercontent.com/51529905/123561372-4bbbab80-d7a8-11eb-97f7-fa0957944982.png)
 
