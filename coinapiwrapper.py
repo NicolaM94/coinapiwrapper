@@ -38,7 +38,7 @@ def all ():
     | COIN-ID\tNOME\tWEBSITE
     ''')
     for n in p:
-        print(f'    | > {n["exchange_id"]}\t\t{n["name"]}\t\t{n["website"]}')
+        print(f'    | > {n["exchange_id"]}{" "*(16-len(n["exchange_id"]))}{n["name"]}\t\t{n["website"]}')
     print("")
     r.close()
 
